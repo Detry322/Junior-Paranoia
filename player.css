@@ -1,0 +1,94 @@
+#playerbox
+{
+	width: 700px;
+}
+		span a
+		{
+			color: #002F2F;
+		}
+		.dead
+		{
+			color: #400;
+		}
+		.alive
+		{
+			color: #046380;
+		}
+		.open
+		{
+			color: #444;
+		}
+
+		table#stats
+		{
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 1.5em;
+			color: #002F2F;
+		}
+		table#stats td
+		{
+			text-align: center;
+			width: 200px;
+			border-right-style: solid;
+			border-left-style: solid;
+			border-right-width: 1px;
+			border-left-width: 1px;
+			border-color: #000000;
+		}
+		table#stats th
+		{
+			border-right-style: solid;
+			border-left-style: solid;
+			border-right-width: 1px;
+			border-left-width: 1px;
+			border-color: #000000;
+		}
+		.labels
+		{
+			float: left;
+			margin-left: 70px;
+			margin-right: 70px;
+			font-size: 0.8em;
+			text-align: left;
+		}
+		.information
+		{
+			float: right;
+			font-size: 0.8em;
+			margin-left: 70px;
+			margin-right: 70px;
+			text-align: right;
+			max-width: 270px;
+		}
+		.clear
+		{
+			clear: both;
+		}
+		#killplayer
+		{
+			border-top: 2px solid #A7A37E;
+			border-left: 2px solid #A7A37E;
+			border-right: 2px solid #A7A37E;
+			border-bottom: 2px solid #A7A37E;
+			padding: 5px 10px !important;
+			font-size: 30px !important;
+			font-family: Noticia;
+			background-color: #E6E2AF;
+			font-weight: bold;
+			border-radius: 2px;
+			color: #002F2F;
+		}
+		select
+		{
+			width: 200px;
+			height: 34px;
+			font-family: Noticia;
+			border-top: 2px solid #A7A37E;
+			border-left: 2px solid #A7A37E;
+			border-right: 2px solid #A7A37E;
+			border-bottom: 2px solid #A7A37E;
+			background-color: #E6E2AF;
+			padding: 5px 10px !important;
+			font-size: 20px !important;
+		}

@@ -1,0 +1,68 @@
+#captainbox
+{
+	width: 700px;
+}
+#verify
+{
+	display: inline-block;
+	width: 650px;
+	font-size: 0.7em;
+	text-align: right;
+}
+#manage
+{
+	display: inline-block;
+	width: 650px;
+	font-size: 0.7em;
+	text-align: right;
+}
+form
+{
+	display: inline-block;
+}
+.button
+{
+	border-top: 2px solid #A7A37E;
+	border-left: 2px solid #A7A37E;
+	border-right: 2px solid #A7A37E;
+	border-bottom: 2px solid #A7A37E;
+	padding: 5px 10px !important;
+	font-size: 16px !important;
+	font-family: Noticia;
+	background-color: #E6E2AF;
+	font-weight: bold;
+	border-radius: 2px;
+	color: #002F2F;
+	clear: both;
+}
+
+		select
+		{
+			width: 200px;
+			height: 34px;
+			font-family: Noticia;
+			border-top: 2px solid #A7A37E;
+			border-left: 2px solid #A7A37E;
+			border-right: 2px solid #A7A37E;
+			border-bottom: 2px solid #A7A37E;
+			background-color: #E6E2AF;
+			padding: 5px 10px !important;
+			font-size: 20px !important;
+		}
+		.clear
+		{
+			clear: both;
+		}
+		
+		.dead a
+		{
+			color: #400;
+		}
+		.alive a
+		{
+			color: #046380;
+		}
+		.open
+		{
+			color: #444;
+		}

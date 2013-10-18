@@ -1,0 +1,23 @@
+#infobox
+{
+	width:700px;
+}
+#students
+{
+	width: 320px;
+	float: left;
+	padding: 14px;
+	text-align: justify;
+}	
+#parents
+{
+	float:right;
+	text-align: justify;
+	border-left-style: solid;
+	width: 320px;
+	padding: 14px;
+}
+.info
+{
+	font-size: 0.5em;
+}

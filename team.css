@@ -1,0 +1,73 @@
+
+		span.medium
+		{
+			font-size: 0.7em;
+			color: #002F2F;
+		}
+		#teambox
+		{
+			width: 700px;
+		}
+		span a
+		{
+			color: #002F2F;
+		}
+		table#stats
+		{
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 1.5em;
+			color: #002F2F;
+		}
+		table#stats td
+		{
+			text-align: center;
+			width: 200px;
+			border-right-style: solid;
+			border-left-style: solid;
+			border-right-width: 1px;
+			border-left-width: 1px;
+			border-color: #000000;
+		}
+		table#stats th
+		{
+			border-right-style: solid;
+			border-left-style: solid;
+			border-right-width: 1px;
+			border-left-width: 1px;
+			border-color: #000000;
+		}
+		.teamparts
+		{
+			float: left;
+			margin-left: 70px;
+			margin-right: 70px;
+			font-size: 0.8em;
+			text-align: left;
+		}
+		.players
+		{
+			float: right;
+			font-size: 0.8em;
+			margin-left: 70px;
+			margin-right: 70px;
+			text-align: right;
+			max-width: 270px;
+		}
+		.clear
+		{
+			clear: both;
+		}
+		
+		.dead a
+		{
+			color: #400;
+		}
+		.alive a
+		{
+			color: #046380;
+		}
+		.open
+		{
+			color: #444;
+		}

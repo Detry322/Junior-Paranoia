@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Example Paranoia Rules</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<link rel="stylesheet" type="text/css" href="captain.css" />
+	<link rel="icon" type="image/png" href="icon.png" />
+	<link rel="apple-touch-icon-precomposed" href="icon.png" />
+</head>
+<body>
+	<div id="wrapper">
+		<a href="/paranoia"><img src="header.png" width=666 height=157 /></a><br />
+		<div class="box" id="captainbox">
+			captain's corner<hr />
+			pending kills<br />
+			<div id="verify">
+				<ol>
+					<li>
+						Tom Attingham killed Michael Teague
+						<form action="#" method="POST">
+							<input type="submit" class="button" name="verify" value="verify" />
+							<input type="submit" class="button" name="dispute" value="dispute" />
+						</form>
+					</li>
+				</ol>
+			</div>
+			<hr />
+			manage team
+			<div id="manage">
+				<ol>
+					<li>
+						Jack Archie
+						<form action="#" method="POST">
+							<input type="submit" class="button" name="kill" value="kill" />
+							<input type="submit" class="button" name="remove player" value="remove player" />
+						</form>
+					</li>
+					<li>
+						Michael Teague
+						<form action="#" method="POST">
+							<input type="submit" class="button" name="kill" value="kill" />
+							<input type="submit" class="button" name="remove player" value="remove player" />
+						</form>
+					</li>
+					<li>
+						Alex Wheeler
+						<form action="#" method="POST">
+							<input type="submit" class="button" name="kill" value="kill" />
+							<input type="submit" class="button" name="remove player" value="remove player" />
+						</form>
+					</li>
+					<li>
+						Enter player number to add player:
+						<form action="#" method="POST">
+							<input type="text" name="player" />
+							<input type="submit" class="button" name="add player" value="add" />
+						</form>
+					</li>
+				</ol>
+			</div>
+			<hr />
+			<form action="#" method="POST">
+					<input type="submit" class="button" name="leave" value="leave team" />
+					<input type="submit" class="button" name="disband" value="disband team" />
+			</form>
+		</div>
+	</div>
+</body>
+</html>

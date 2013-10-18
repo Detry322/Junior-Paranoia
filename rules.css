@@ -1,0 +1,13 @@
+#rulesbox
+{	
+	width:700px;
+}
+textarea
+{
+	height: 600px;
+	width: 680px;
+}
+.info
+{
+	font-size: 0.5em;
+}

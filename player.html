@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Example Paranoia Rules</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<link rel="stylesheet" type="text/css" href="player.css" />
+	<link rel="icon" type="image/png" href="icon.png" />
+	<link rel="apple-touch-icon-precomposed" href="icon.png" />
+</head>
+<body>
+	<div id="wrapper">
+		<a href="/paranoia"><img src="header.png" width=666 height=157 /></a><br />
+		<div class="box" id="playerbox">
+			<span class="alive">Jack Serrino</span>
+			<hr />
+			<div class="labels">
+				Team:<br />
+				Address:<br />
+				Dead:<br />
+				Paid:<br />
+			</div>
+			<div class="information">
+				<span><a href="#1">A.I.D.S.</a></span><br />
+				Not available<br />
+				No<br />
+				Yes<br />
+			</div>
+			<div class="clear"></div>
+			<hr />
+			<table id="stats">
+			<tr>
+				<th>kills</th>
+				<th>deaths</th>
+				<th>assists</th>
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			</table><hr />
+			<form action="#" method="POST">
+				<input id="killplayer" type="submit" name="kill" value="kill player" /><br />
+				<label for="assist">Assisted by: </label>
+				<select name="assist">
+					<option value="0">No one</option>
+					<option value="1">Jack Archie</option>
+					<option value="2">Dan Maentz</option>
+					<option value="3">Owen Levin</option>
+					<option value="4">James Doodlebopper</option>
+					<option value="5">Winner</option>
+				</select>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
